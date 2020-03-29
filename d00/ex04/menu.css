@@ -1,0 +1,39 @@
+h1, h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    width: 5vw;
+    border-right: 1px solid white;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a {
+    display: block;
+    color: whitesmoke;
+    background-color: gray;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
